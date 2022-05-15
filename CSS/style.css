@@ -82,6 +82,7 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 #faq ul a{
@@ -104,6 +105,18 @@ h1 {
     color: hsl(240, 6%, 50%);
     font-size: 12px;
     padding: 10px 0px;
+}
+
+.dNone.dBlock{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(240, 6%, 50%);
+    font-size: 12px;
+    padding: 10px 0px;
+    display: block;
+}
+
+.retourne{
+    transform: rotate(180deg);
 }
 
 

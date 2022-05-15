@@ -1,37 +1,42 @@
-let q1 = document.getElementById('q1');
- let fleche = document.querySelectorAll('svg')
- let p1= document.getElementById('p1');
- q1.addEventListener('click', notHidden)
- console.log(p1);
+const p = document.querySelectorAll('p')
+const a = document.querySelectorAll('a')
+const svg = document.querySelectorAll('svg')
+const div = document.querySelectorAll('.flecheDroite')
+div[0].addEventListener('click', () => {
+    p[0].classList.toggle('dBlock')
+    svg[3].classList.toggle('retourne')
+   
+})
 
- function non() {
-     p1.style.display='none'
- }
+div[1].addEventListener('click', () => {
+    p[1].classList.toggle('dBlock')
+    svg[4].classList.toggle('retourne')
+  
+})
 
- function oui() {
-     p1.style.display='block'
- }
+div[2].addEventListener('click', () => {
+    p[2].classList.toggle('dBlock')
+    svg[5].classList.toggle('retourne')
+    
+})
 
- function notHidden(){
+div[3].addEventListener('click', () => {
+    p[3].classList.toggle('dBlock')
+    svg[6].classList.toggle('retourne')
+})
 
-if (p1.style.display='none') {
-    oui()
-    fleche[2].style.transform='rotate(180deg)'
-} else{
-    non()
-}
+div[4].addEventListener('click', () => {
+    p[4].classList.toggle('dBlock')
+    svg[7].classList.toggle('retourne')
+})
 
 
 
 
-      
-            
-     
-       
    
         
  
-    };
+   
 
 
 
