@@ -1,0 +1,121 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: rgb(175, 103, 233);
+    background: linear-gradient(180deg, rgba(175, 103, 233, 1) 42%, rgba(101, 101, 231, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    height: 500px;
+    width: 87%;
+    margin: 60px auto 0px auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.358)
+}
+
+#illustration {
+    height: 230px;
+    width: 230px;
+    position: absolute;
+    top: -105px;
+
+}
+
+#ombre {
+    position: absolute;
+    z-index: 20;
+    left: -5px;
+    top: 100px
+}
+
+
+#faq {
+    
+    height: 380px;
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    
+}
+
+#faq ul{
+    
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.flecheDroite{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#faq ul a{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(238, 29%, 16%);
+    font-size: 12px;
+    transition: 0.2s;
+    
+}
+
+#faq ul a:hover{
+    color: #000;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.dNone {
+    display: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(240, 6%, 50%);
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.hidden{
+    display: block;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(240, 6%, 50%);
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+
+
+footer {
+    display: none;
+}
